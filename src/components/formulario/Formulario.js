@@ -41,6 +41,7 @@ function Formulario({aoEnviar, validarCpf}) {
         variant="outlined"
         margin="normal"
         fullWidth
+        
         />
 
         <TextField 
