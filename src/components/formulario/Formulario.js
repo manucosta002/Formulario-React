@@ -41,7 +41,6 @@ function Formulario({aoEnviar, validarCpf}) {
         variant="outlined"
         margin="normal"
         fullWidth
-        
         />
 
         <TextField 
@@ -128,12 +127,13 @@ function Formulario({aoEnviar, validarCpf}) {
         fullWidth 
         />
 
-        <Button type = "submit" 
+        <Button 
+        onClick={() => { }}
         variant = "contained"
         color = "primary"
         size = "medium"
         fullWidth>
-        Cadastrar 
+        Cadastrar
         </Button>
 
         </form>
